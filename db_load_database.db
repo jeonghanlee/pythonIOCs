@@ -1,0 +1,9 @@
+
+alias("$(P)AI", "$(P)analog_input")
+alias("$(P)AO", "$(P)analog_output")
+
+
+record(ai, "$(P)AI") {
+    field(DESC, "This is the example record for AI")
+    info(archive,"SlowControlled")
+}
