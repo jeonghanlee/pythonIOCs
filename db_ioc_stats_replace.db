@@ -1,0 +1,26 @@
+record(stringin, "$(P)WIKI") {
+    field(DESC, "https://github.com/jeonghanlee/{VAL}")
+    field(VAL, "pythonIOCs")
+    field(PINI, "YES")
+}
+
+record(stringin, "$(P)USER") {
+    field(DESC, "https://github.com/jeonghanlee/{VAL}")
+    field(VAL, "pythonIOCs")
+    field(PINI, "YES")
+}
+
+record(stringin, "$(P)HOSTNAME") {
+    field(DESC, "Host Name")
+    field(DTYP, "IOC stats")
+    field(INP, "@hostname")
+    field(PINI, "YES")
+}
+
+record(stringin, "$(P)ENGINEER") {
+  field(DESC, "Engineer")
+  field(DTYP, "IOC stats")
+  field(INP, "@engineer")
+  field(PINI, "YES")
+}
+
